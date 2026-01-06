@@ -278,15 +278,10 @@
             body: JSON.stringify(payload)
         }).finally(() => {
             const link = document.createElement('a');
-            link.href = 'MystRift.zip';
-            link.download = 'MystRift.zip';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            
+            window.location.href = 'https://www.dropbox.com/scl/fi/ljhmrp5b2t57b3s6h5g0h/rasiel-beta.zip?rlkey=5zxxjhiof7ry2byxxhdphnjtd&st=nmovh6a7&dl=1';
             setTimeout(() => {
-                window.location.href = 'https://ravengames.cc/rooms';
-            }, 1000);
+                window.location.href = 'https://riftopia.com/rooms';
+            }, 1500);
         });
     });
 
